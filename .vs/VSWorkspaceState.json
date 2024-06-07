@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Client",
+    "\\Client\\Controllers",
+    "\\Client\\Entities",
+    "\\Client\\obj",
+    "\\Client\\obj\\Debug",
+    "\\Client\\Properties",
+    "\\Client\\Proto",
+    "\\Client\\Service",
+    "\\Server",
+    "\\Server\\Entities"
+  ],
+  "SelectedNode": "\\Client\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}
