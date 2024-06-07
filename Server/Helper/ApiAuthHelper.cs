@@ -6,7 +6,7 @@ using System.Text.Encodings.Web;
 
 namespace InventoryService.Handler
 {
-    public class ApiAuthHandler : AuthenticationHandler<AuthenticationSchemeOptions>
+    public class ApiAuthHelperer : AuthenticationHandler<AuthenticationSchemeOptions>
     {
         private readonly IApiKeyService _apiKeyService;
 
@@ -16,7 +16,7 @@ namespace InventoryService.Handler
         private const string ClaimValueName = "Name"; // Replace with actual name value if needed
         private const string ClaimValueRole = "User"; // Replace with actual role value if needed
 
-        public ApiAuthHandler(
+        public ApiAuthHelperer(
             IOptionsMonitor<AuthenticationSchemeOptions> options,
             ILoggerFactory logger,
             UrlEncoder encoder,

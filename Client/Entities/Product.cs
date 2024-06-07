@@ -1,19 +1,23 @@
-﻿namespace Client.Entities
+﻿using Client.Entities;
+
+namespace Client.Entities
 {
-    public enum CategoryEnum
+    public enum Category
     {
-        Electronic,
-        Clothes,
-        Plastic
+   
+        Food,
+        Models,
+        LapTops
+   
     }
 }
     public class ProductModel
     {
         public int id { get; set; }
-        public string title { get; set; }
+        public string name { get; set; }
         public double price { get; set; }
         public int quantity { get; set; }
-        public CategoryEnum category { get; set; }
+        public Category category { get; set; }
         public DateTime expireDate { get; set; }
     }
     

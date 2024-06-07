@@ -2,14 +2,16 @@
 {
     public enum Category
     {
-        Electronic,
-        Clothes,
-        Plastic
+     
+        Food,
+        Models,
+        LapTops
     }
+}
     public class ProductModel
     {
         public int id { get; set; }
-        public string title { get; set; }
+        public string name { get; set; }
         public double price { get; set; }
         public int quantity { get; set; }
         public Category category { get; set; }
